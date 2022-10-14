@@ -258,3 +258,27 @@ label {
     margin: 50px auto;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-height: 800px;
+  }
+
+  .design-container {
+    height: 400px;
+  }
+
+  #card-front,
+  #card-back {
+    height: 150px;
+    width: 250px;
+  }
+
+  p {
+    font-size: 11px !important;
+  }
+
+  #card-exp-yy {
+    right: 7%;
+  }
+}
